@@ -1,0 +1,72 @@
+<!-- Inspired by [Null](http://www.nullblogs.com) -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+  <title>濯桑</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+  <div id="background"></div>
+  <div id="player">
+    <div class="cover"></div>
+    <div class="ctrl">
+      <div class="tag">
+        <strong>Title</strong>
+        <span class="artist">Artist</span>
+        <span class="album">Album</span>
+      </div>
+      <div class="control">
+        <div class="left">
+          <div class="rewind icon"></div>
+          <div class="playback icon"></div>
+          <div class="fastforward icon"></div>
+        </div>
+        <div class="volume right">
+          <div class="mute icon left"></div>
+          <div class="slider left">
+            <div class="pace"></div>
+          </div>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="slider">
+          <div class="loaded"></div>
+          <div class="pace"></div>
+        </div>
+        <div class="timer left">0:00</div>
+        <div class="right">
+          <div class="repeat icon"></div>
+          <div class="shuffle icon"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="wrapper">
+    <ul id="playlist"></ul>
+    <ul id="lyrics"></ul>
+  </div>
+
+  <script src="js/jquery-ui-1.8.17.custom.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="js/spig.js"></script>
+  <script type="text/javascript" src="js/averageColor.js"></script>
+
+  <!-- 浮动小人 （把我放在<body>里面，最好是footer里面的<body>）-->
+  <<script type="text/javascript">
+    var isindex=true;
+    var title="濯桑";
+    var visitor="小呆子?";
+  </script>
+
+  <div id="spig" class="spig">
+      <div id="message">¼ÓÔØÖÐ¡­¡­</div>
+      <div id="mumu" class="mumu"></div>
+  </div>
+  <!-- 浮动小人-->
+
+</body>
+</html>
